@@ -9,9 +9,9 @@
     "ts:lint": "tsc --noEmit --watch",
     "dev": "tsx watch src/index.ts",
     "dev:inspect": "tsx watch -- --inspect src/index.ts",
-    "test": "vitest",
+    "test:watch": "vitest",
     "test:ui": "vitest --ui",
-    "test:run": "vitest run",
+    "test": "vitest run",
     "coverage": "vitest run --coverage",
     "dev:tsnd": "tsnd --respawn --transpile-only --exit-child src/index.ts",
     "prepare": "husky install"
