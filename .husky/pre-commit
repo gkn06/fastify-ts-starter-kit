@@ -1,14 +1,4 @@
 #!/usr/bin/env sh
-. "$(dirname "$0")/_/husky.sh"
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+. "$(dirname -- "$0")/_/husky.sh"
 
 npx lint-staged
-
-# . "$(dirname -- "$0")/_/husky.sh"
-
-# exec >/dev/tty 2>&1
-
-# npx lint-staged
-#!/bin/sh
