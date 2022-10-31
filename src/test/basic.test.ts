@@ -10,6 +10,7 @@ test('Math.sqrt()', () => {
 test('JSON', () => {
   const input = {
     foo: 'hello',
+    bar: 'world',
   };
 
   const output = JSON.stringify(input);
